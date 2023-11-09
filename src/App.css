@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: 600;
+} 
+
+#root {
+  width: 940px;
+}
+
+.store {
+  position: relative;
+  padding-top: 50px;
+  width: 940px;
+}
+
+.material-icons {
+  font-size: 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+#material-icons-view_list {
+  position: absolute;
+  right: 10px;
+}
+
+.cardsView {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.view_list {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  text-align: center;  
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 5px rgba(0,0,0,0.24);
+}
+
+.view_list-img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.view_list-name {  
+  font-size: 25px;
+  padding: 25px 10px 10px;
+  color: rgb(73, 73, 73);
+}
+
+.view_list-color {  
+  font-size: 15px;
+}
+
+.view_list-price {  
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 15px;
+  color: rgb(212, 44, 44);
+}
+
+.view_list-button {  
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid rgb(212, 44, 44);
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  color: rgb(212, 44, 44);
+}
+
+.view_module {
+  width: 100%;
+  height: 100px;
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 5px rgba(0,0,0,0.24);
+  background-color: rgb(248, 245, 245);
+  padding: 10px 20px;
+}
+
+.view_module-img {
+  width: 100px;
+  height: 100px;
+}
+
+.view_module-name {
+  font-size: 25px;
+  color: rgb(73, 73, 73);
+}
+
+.view_module-price {
+  color: rgb(212, 44, 44);
+}
+
+.view_module-button {
+  border: 1px solid rgb(212, 44, 44);
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+  color: rgb(212, 44, 44);
+}
